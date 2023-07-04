@@ -1,0 +1,151 @@
+.Book {
+    padding-block: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.BookContainer {
+    background-color: black;
+    border-radius: 7px;
+    box-shadow:  0 4px 34px rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    
+}
+
+.BookContainer hr {
+    border-color: transparent;
+    background-color: #F2E3CE;
+    height: 1px;
+}
+.Deleted {
+    font-family: 'Modern Antiqua', cursive;
+    padding-block: 120px;
+    background-color: black;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow:  0 4px 34px rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+
+}
+
+.Deleted h1 {
+
+    font-size: 44px;
+    font-style: italic;
+    color: white;
+    padding-bottom: 15px;
+}
+.Deleted p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.Deleted img {
+    margin-bottom: 75px;
+}
+.BookImage {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.Book img {
+    width: 100%;
+}
+.BookContent {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.Book form {
+    position: relative;
+    overflow: hidden;
+    background-color: #F9F3EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 32px;
+    margin-top: 50px;
+    max-width: 465px
+}
+
+.Book form p {
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+.Book form input[type="radio"] {
+    position: absolute;
+    left: -10000px
+}
+.Book form input[type="submit"] {
+    padding: 20px 23px;
+    border: none;
+    background-color: #D9A963;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+}
+.Stars, .Stars label{
+    display: flex;
+    margin-bottom: 22px;
+}
+.Owner {
+    color: #2C1810;
+    font-family: "DM Sans", sans-serif;
+    padding: 20px;
+}
+
+.Owner p {
+    margin-bottom: 20px;
+}
+
+.Owner a {
+    color: #929292;
+    margin-right: 20px;
+}
+
+.Owner span {
+    color: #D70000;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: 'Modern Antiqua', cursive;
+}
+
+
+
+@media all and (max-width: 1080px) {
+    .Book {
+        flex-direction: column;
+        align-items: center;
+        padding-block: 0px;
+    }
+    .BookImage {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        margin-inline: 0;
+        margin-bottom: 0px;
+    }
+    .BookContent {
+        align-items: center;
+    }
+    .BookContainer {
+        border-radius: 0px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .BookContent {
+        width: 90%;
+    }
+}
