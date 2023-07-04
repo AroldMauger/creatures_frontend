@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/creatures_frontend/static/css/main.e1a04b52.css",
+    "main.js": "/creatures_frontend/static/js/main.91257bd5.js",
+    "static/js/787.2c0e5b38.chunk.js": "/creatures_frontend/static/js/787.2c0e5b38.chunk.js",
+    "static/media/book_add.jpg": "/creatures_frontend/static/media/book_add.39d19f3dbedefa81ee63.jpg",
+    "index.html": "/creatures_frontend/index.html",
+    "main.e1a04b52.css.map": "/creatures_frontend/static/css/main.e1a04b52.css.map",
+    "main.91257bd5.js.map": "/creatures_frontend/static/js/main.91257bd5.js.map",
+    "787.2c0e5b38.chunk.js.map": "/creatures_frontend/static/js/787.2c0e5b38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1a04b52.css",
+    "static/js/main.91257bd5.js"
+  ]
+}
